@@ -55,3 +55,9 @@ paragraphs[5].addEventListener('copy', ()=> {
 paragraphs[6].addEventListener('contextmenu', e => {
     e.preventDefault();
   });
+
+
+let nav = document.querySelectorAll('a');
+  nav.addEventListener('click', (e)=> {
+    e.preventDefault();
+  });
